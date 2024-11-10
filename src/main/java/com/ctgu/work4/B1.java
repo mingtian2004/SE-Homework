@@ -70,7 +70,6 @@ public class B1 {
                 break;
         }
     }
-
     public static void main(String[] args) {
         B1 waterTank = new B1();
 

@@ -32,7 +32,6 @@ public class B3 {
                         }
                         index++;
                         break;
-
                     case ESCAPE_CHARACTER:
                         currentState = State.READ_CHARACTER;
                         System.out.println("跳过下一个字符，回到 READ_CHARACTER 状态");

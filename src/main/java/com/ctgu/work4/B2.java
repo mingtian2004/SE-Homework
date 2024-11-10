@@ -72,7 +72,6 @@ public class B2 {
             retryCount = 0;
             startTime = System.currentTimeMillis();
         }
-
         public static void main(String[] args) {
             B2 machine = new B2();
             machine.inputPassword("123");  // 测试密码输入
